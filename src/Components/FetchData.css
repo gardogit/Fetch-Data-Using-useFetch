@@ -3,12 +3,17 @@
 .list_data_main {
     list-style: none;
     padding: 0;
-  }
-  .usefetch_heading{
+    display: flex; 
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    justify-content: center; /* Centra los elementos en la línea */
+}
+
+.usefetch_heading {
     text-align: center;
-  }
- .list_data {
-    margin-bottom: 20px;
+}
+
+.list_data {
+    margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -16,14 +21,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .list_data h3 {
+    width: 20%;
+}
+
+.list_data h3 {
     margin-top: 0;
     margin-bottom: 10px;
-  }
-  
-  .list_data p {
+}
+
+.list_data p {
     margin: 5px 0;
-  }
-  
+}
+
+.list_data img {
+    width: 100%;
+}
